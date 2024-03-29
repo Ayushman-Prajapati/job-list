@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-position: left;
+    background-image: url("https://img.freepik.com/premium-photo/magnifier-glass-focus-job-wording-wooden-table-find-search-job-concept_50039-4484.jpg?size=626&ext=jpg");
+    justify-content: left;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 20px 100px 20px 50px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 15px 5px 5px 5px;
+    background-color: #007bff;
+    font-size: medium;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}

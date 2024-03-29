@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px ;
+}
+
+header h1 {
+    margin: 0px 20px 40px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.webp?b=1&s=170667a&w=0&k=20&c=ZFS0x2s-WrF__GiGEognB4ao-YUI68w3OKMaLGQy3PY=");
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.fa-solid{
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:4rem; 
+}
+.fa-brands{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 120px;
+    border: 0.1rem solid #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:4rem; 
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 250px 0px 0px 0px;
+}
